@@ -1,0 +1,80 @@
+/* обнуление */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+html,
+body {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+footer {
+    display: block;
+}
+
+img,
+svg {
+    vertical-align: top;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input,
+textarea,
+select,
+option,
+button {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+select {
+    appearance: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    color: inherit;
+    background: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+    font-weight: 400;
+}
